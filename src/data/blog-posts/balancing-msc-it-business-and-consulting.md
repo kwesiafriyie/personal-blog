@@ -9,7 +9,7 @@ description: 'Strategies on navigating academic milestones while managing corpor
 
 ## Finding harmony between study and career
 
-Starting an MSc while working full-time as a technology consultant taught me that balance is not a destination — it is a daily practice. There were weeks where client deadlines overlapped with assignments, meetings stretched into study hours, and rest became something i had to schedule intentionally.
+Starting an MSc while working full-time as a technology consultant taught me that balance is not a destination, it is a daily practice. There were weeks where client deadlines overlapped with assignments, meetings stretched into study hours, and rest became something i had to schedule intentionally.
 
 Both roles bring unique rewards and pressures. On one hand, the academic journey invites curiosity, deep reflection, and structured learning. On the other, consulting demands fast decision-making, client focus, and tangible delivery.
 
@@ -54,12 +54,12 @@ Sustaining this pace requires more than efficient planning.
 
 - **Mindful rest**: Short breaks, exercise, and social time keep my mind sharp.
 - **Celebrate progress**: Finishing a project chapter or delivering a client solution are both reasons to pause and reflect.
-- **Keep the purpose visible**: I remind myself why I chose this path — to deepen my skills, broaden my impact, and grow as a technology leader.
+- **Keep the purpose visible**: I remind myself why I chose this path, to deepen my skills, broaden my impact, and grow as a technology leader.
 
 ## Looking ahead
 
 Balancing an MSc and a full-time consulting career is demanding, but it is also deeply rewarding.
 
-The most important insight i’ve gained is that balance is dynamic. Some weeks will feel heavier on client work, others more academic. The goal is not perfection — it is staying intentional, adapting when needed, and honoring both the journey and the goals.
+The most important insight i’ve gained is that balance is dynamic. Some weeks will feel heavier on client work, others more academic. The goal is not perfection, it is staying intentional, adapting when needed, and honoring both the journey and the goals.
 
 If you are pursuing multiple ambitions at once, i hope this reflection encourages you to find a rhythm that works for your life, not just your schedule.

@@ -7,7 +7,7 @@ description: 'A reflection on the transition from university into professional l
 
 ## The moment university ended, life didn’t slow down
 
-Graduating from university felt like a major milestone — like a finish line I had worked toward for years.
+Graduating from university felt like a major milestone like a finish line I had worked toward for years.
 
 But very quickly, I realized something important: it wasn’t an ending. It was a transition into a completely different kind of learning.
 
@@ -44,7 +44,7 @@ I had to learn how to:
 * build consistency without external pressure
 * keep improving even when there was no immediate reward
 
-This is where real growth starts — when it is no longer enforced, but chosen.
+This is where real growth starts. when it is no longer enforced, but chosen.
 
 ## Soft skills matter more than expected
 
@@ -86,7 +86,7 @@ I’ve come to accept that clarity is often something that develops after action
 
 Another lesson I learned is that growth is not only professional.
 
-Life outside work — rest, relationships, health, and reflection — directly affects how you perform inside work.
+Life outside work ie. rest, relationships, health, and reflection, directly affects how you perform inside work.
 
 Ignoring that balance eventually catches up with you.
 

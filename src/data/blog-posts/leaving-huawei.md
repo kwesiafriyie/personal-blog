@@ -20,7 +20,7 @@ Over time, I became familiar with:
 
 It was a place where I learned discipline through execution. You didn’t just design solutions — you implemented them in systems that affected real users and operations.
 
-Eventually, though, I started feeling a shift. I didn’t just want to build and support systems — I wanted to understand broader business problems, how decisions are made, and how technology fits into strategy.
+Eventually, though, I started feeling a shift. I didn’t just want to build and support systems. I wanted to understand broader business problems, how decisions are made, and how technology fits into strategy.
 
 That curiosity became the bridge to my next step.
 
@@ -30,7 +30,7 @@ Leaving a familiar environment is never just a career decision. It is also an id
 
 Huawei had structure. I knew the systems, the expectations, and the workflows. I knew how to operate effectively within that space.
 
-But KPMG represented something different — less about fixed systems, and more about ambiguity, clients, and advisory thinking.
+But KPMG represented something different, less about fixed systems, and more about ambiguity, clients, and advisory thinking.
 
 The decision wasn’t instant or easy. It came with questions like:
 
