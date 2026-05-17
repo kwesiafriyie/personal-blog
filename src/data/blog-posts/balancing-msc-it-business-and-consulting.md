@@ -1,9 +1,7 @@
 ---
-title: Balancing my MSc IT for Business degree at University of Ghana while working as a full-time technology consultant
-description: Reflections on staying grounded, productive, and connected while pursuing an MSc degree at the University of Ghana alongside a demanding consulting career.
-pubDate: 17 May 2026
-heroImage: /assets/blog/placeholder-hero-image.webp
-slug: balancing-msc-it-business-and-consulting
+title: 'Balancing an MSc in IT for Business with a Technology Consulting Career'
+publishDate: '17 May 2026'
+description: 'Strategies on navigating academic milestones at the University of Ghana while managing corporate integrations.'
 ---
 
 ![Illustration of a student consultant balancing studies and work](/assets/blog/placeholder-hero-image.webp)
