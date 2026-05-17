@@ -1,7 +1,8 @@
 ---
-title: 'Balancing an MSc in IT for Business with a Technology Consulting Career'
-publishDate: '17 May 2026'
-description: 'Strategies on navigating academic milestones at the University of Ghana while managing corporate integrations.'
+title: Balancing an MSc in IT for Business with a Technology Consulting Career
+slug: balancing-msc-it-business-and-consulting
+publishDate: 17 May 2026
+description: Strategies on navigating academic milestones at the University of Ghana while managing corporate integrations.
 ---
 
 ![Illustration of a student consultant balancing studies and work](/assets/blog/placeholder-hero-image.webp)
