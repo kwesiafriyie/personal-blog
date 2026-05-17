@@ -1,4 +1,3 @@
-```md
 ---
 title: Learning How to Skate (Hopefully Without Breaking Anything)
 slug: learning-how-to-skate
@@ -109,4 +108,3 @@ Either way, I’m glad I’m trying.
 Because lately I’ve realized that life shouldn’t only be work and responsibilities.
 
 Sometimes it should also include learning random things that make you feel alive again.
-```
