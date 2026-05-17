@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const title = 'My Astro Blog';
-const description = 'The perfect starter for your perfect blog.';
+const title = 'Kwesi Afriyie | Personal Blog';
+const description = 'Technology Consultant & MSc IT for Business Student at the University of Ghana.';
 const permalink = Astro.site.href;
 const baseUrl = import.meta.env.BASE_URL;
 ---
@@ -10,8 +10,13 @@ const baseUrl = import.meta.env.BASE_URL;
 <BaseLayout title={title} description={description} permalink={permalink}>
   <div class="home-container">
     <div class="home-copy">
-      <h1>Welcome to your new Astro Blog</h1>
-      <p>Check out the docs on <a href="https://www.github.com/Charca/astro-blog-template" target="_blank" rel="noopener">GitHub</a> to get started.</p>
+      <h1>Welcome to my digital garden</h1>
+      <p>
+        I am a <strong>SWE & Technology Consultant</strong> navigating enterprise digital workflows, while concurrently pursuing my <strong>MSc in IT for Business</strong> at the <strong>University of Ghana</strong>. 
+      </p>
+      <p class="sub-copy">
+        This journal is my dedicated space for documenting life experiences, complex technical troubleshooting fixes, exploring IT strategy, and sharing reflections on balancing high-stakes professional consulting alongside rigorous academic milestones.
+      </p>
     </div>
 
     <div class="hero-image-container">
@@ -47,11 +52,24 @@ const baseUrl = import.meta.env.BASE_URL;
   .home-copy h1 {
     font-weight: 700;
     margin-bottom: 0.5em;
-    line-height: 1.3;
+    line-height: 1.2;
+    font-size: 2.8em;
   }
 
   .home-copy p {
-    font-size: 1.4em;
+    font-size: 1.3em;
+    line-height: 1.6;
+    margin-bottom: 0.8em;
+  }
+
+  .home-copy .sub-copy {
+    font-size: 1.1em;
+    color: var(--text-secondary, #666);
+    line-height: 1.5;
+  }
+
+  :global(.dark) .home-copy .sub-copy {
+    color: #a0aec0;
   }
 
   .hero-image-container {
@@ -77,10 +95,15 @@ const baseUrl = import.meta.env.BASE_URL;
   }
 
   @media (max-width: 1200px) {
-    p {
-      font-size: 1.2em;
+    .home-copy h1 {
+      font-size: 2.3em;
     }
-
+    .home-copy p {
+      font-size: 1.15em;
+    }
+    .home-copy .sub-copy {
+      font-size: 1rem;
+    }
     .hero-image {
       max-width: 400px;
     }
@@ -94,6 +117,10 @@ const baseUrl = import.meta.env.BASE_URL;
     .home-copy {
       flex: 0;
       padding-bottom: 2em;
+      text-align: center;
+    }
+    
+    .caption {
       text-align: center;
     }
   }
