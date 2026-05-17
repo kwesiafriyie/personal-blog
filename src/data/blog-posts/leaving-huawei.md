@@ -1,7 +1,7 @@
 ---
 title: From Huawei to KPMG — A Transition Into Consulting and Broader Problem Solving
 slug: huawei-to-kpmg-transition
-publishDate: 17 May 2026
+publishDate: 14 May 2026
 description: Reflections on moving from a telecom engineering and automation role at Huawei into consulting at KPMG, and the lessons learned along the way.
 ---
 
@@ -24,8 +24,6 @@ Eventually, though, I started feeling a shift. I didn’t just want to build and
 
 That curiosity became the bridge to my next step.
 
----
-
 ## The decision to move — stepping into uncertainty
 
 Leaving a familiar environment is never just a career decision. It is also an identity shift.
@@ -41,8 +39,6 @@ The decision wasn’t instant or easy. It came with questions like:
 * What does growth look like in a space where answers are not predefined?
 
 In hindsight, those questions were part of the reason I needed the move.
-
----
 
 ## Entering KPMG — learning to think differently
 
@@ -65,8 +61,6 @@ One of the biggest adjustments was learning to slow down and think in structure 
 
 Consulting taught me that how you frame a problem often determines the quality of the answer.
 
----
-
 ## From execution to advisory thinking
 
 One of the most important lessons in this transition was moving from execution-first thinking to structured problem solving.
@@ -82,8 +76,6 @@ In consulting, I learned to first ask:
 
 This shift changed how I approach everything, not just work, but decision-making in general.
 
----
-
 ## What I carried from Huawei into KPMG
 
 Even though the environments are different, Huawei gave me a strong foundation that still shapes how I work today:
@@ -95,8 +87,6 @@ Even though the environments are different, Huawei gave me a strong foundation t
 * Problem-solving under pressure
 
 These became transferable strengths in consulting environments, especially when dealing with technology-related discussions.
-
----
 
 ## What KPMG is teaching me
 
@@ -111,8 +101,6 @@ Some of the key lessons so far:
 * impact is measured differently across stakeholders
 
 It has been less about replacing what I knew, and more about expanding how I think.
-
----
 
 ## Final thoughts
 
