@@ -26,7 +26,7 @@ Around May 2025, I was assigned to my first cross-border project involving work 
 
 This was a turning point for me.
 
-It was the first time I was stepping beyond local project exposure into something more regional — with different stakeholders, expectations, and operational context.
+It was the first time I was stepping beyond local project exposure into something more regional, with different stakeholders, expectations, and operational context.
 
 Even though I had been in the firm for a few months, this felt like a real step up in responsibility.
 
