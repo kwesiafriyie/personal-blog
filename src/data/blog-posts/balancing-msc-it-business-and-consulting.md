@@ -5,7 +5,7 @@ publishDate: 17 May 2026
 description: Strategies on navigating academic milestones at the University of Ghana while managing corporate integrations.
 ---
 
-![Illustration of a student consultant balancing studies and work](/assets/blog/placeholder-hero-image.webp)
+<!-- ![Illustration of a student consultant balancing studies and work](/assets/blog/placeholder-hero-image.webp) -->
 
 ## Finding harmony between study and career
 

@@ -5,7 +5,7 @@ publishDate: 16 May 2026
 description: An introduction to my digital garden where I share my experiences navigating life, higher education and corporate tech consulting.
 ---
 
-![Illustration of woman using a meditation app](/assets/blog/casual-life-3d-meditation-crystal.webp)
+<!-- ![Illustration of woman using a meditation app](/assets/blog/casual-life-3d-meditation-crystal.webp) -->
 
 
 ## Hello and Welcome!
@@ -23,4 +23,4 @@ I intend to use this platform to write about:
 2. **Academic Musings:** Reflections on data architecture, research trends, and business information frameworks etc.
 3. **The Balancing Act:** Practical frameworks on time management, productivity hacks, and avoiding burnout while juggling high-stakes professional roles alongside rigorous academic workloads.
 
-Feel free to explore the [About](${import.meta.env.BASE_URL}about) page to learn more about my background, or connect with me via social channels!
+Feel free to explore the [About](https://kwesiafriyie.github.io/personal-blog/about/) page to learn more about my background, or connect with me via social channels!
