@@ -34,7 +34,7 @@ So now the only real obstacle is consistency, courage, and convincing my body to
 Honestly, I don’t fully know.
 
 Part of it is curiosity.
-Part of it is wanting to learn something completely outside my normal world of systems, consulting, deadlines, and screens.
+Part of it is wanting to learn something completely outside my normal world of systems, deadlines, and screens.
 
 Skating feels different.
 
