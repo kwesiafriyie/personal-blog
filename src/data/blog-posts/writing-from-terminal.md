@@ -89,7 +89,7 @@ Somewhere in that process, the post becomes public.
 
 No ceremony. Just deployment.
 
-### 4. Integrated Live Analytics Monitoring
+## Integrated Live Analytics Monitoring
 
 Because static hosting platforms don’t come with built-in analytics dashboards, I needed a way to understand how people actually interact with the journal.
 
