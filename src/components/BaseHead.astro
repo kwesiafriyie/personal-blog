@@ -37,6 +37,23 @@ const socialUrl = Astro.site.href + 'assets/social.png'
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={socialUrl} />
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R57FNGXJ8G"></script>
+<script>
+  // @ts-ignore
+  window.dataLayer = window.dataLayer || [];
+  // @ts-ignore
+  function gtag(){
+    // @ts-ignore
+    dataLayer.push(arguments);
+  }
+  // @ts-ignore
+  gtag('js', new Date());
+
+  // @ts-ignore
+  gtag('config', 'G-R57FNGXJ8G');
+</script>
+
 <ClientRouter />
 
 <!-- This is intentionally inlined to avoid FOUC -->
