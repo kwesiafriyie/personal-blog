@@ -1,7 +1,7 @@
 ---
 title: Sundays, Burgers, and Finding Workspaces
 slug: sundays-burgers-and-workspaces
-publishDate: 17 May 2026
+publishDate: 16 May 2026
 description: How searching for alternative workspaces accidentally turned into a Sunday ritual of burgers, kenkey, and good company.
 ---
 
