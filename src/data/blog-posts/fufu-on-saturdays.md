@@ -10,7 +10,7 @@ Some people use Saturdays to rest.
 
 Some use them to catch up on work.
 
-Mine somehow turned into days for quietly searching for good local food spots around Accra — especially places that serve proper homemade fufu.
+Mine somehow turned into days for quietly searching for good local food spots around Accra, especially places that serve proper homemade fufu.
 
 Not the overly polished restaurant versions.
 
