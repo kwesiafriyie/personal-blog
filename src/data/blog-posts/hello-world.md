@@ -14,8 +14,8 @@ Thank you for stopping by. This blog is my dedicated space to document my profes
 
 ### What I Do
 Currently, I am navigating the intersections of higher education and enterprise software integrations. Specifically, I am:
-* Pursuing my **MSc in IT for Business** at the **University of Ghana**.
-* Operating as a full-time **Technology Consultant** at a big 4.
+* Pursuing a **master's degree**.
+* Operating as a full-time **technology consultant** at a big 4.
 
 ### What You Can Expect Here
 I intend to use this platform to write about:

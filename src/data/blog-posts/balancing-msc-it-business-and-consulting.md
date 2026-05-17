@@ -9,7 +9,7 @@ description: Strategies on navigating academic milestones at the University of G
 
 ## Finding harmony between study and career
 
-Starting an MSc IT for Business at the University of Ghana while working full-time as a technology consultant taught me that balance is not a destination — it is a daily practice.
+Starting an MSc while working full-time as a technology consultant taught me that balance is not a destination — it is a daily practice.
 
 Both roles bring unique rewards and pressures. On one hand, the academic journey invites curiosity, deep reflection, and structured learning. On the other, consulting demands fast decision-making, client focus, and tangible delivery.
 
