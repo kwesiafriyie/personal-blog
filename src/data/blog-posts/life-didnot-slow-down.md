@@ -76,7 +76,7 @@ But over time, I learned that this slower pace is actually what real development
 
 ## Uncertainty is part of the process
 
-There were moments of doubt — about direction, decisions, and timing.
+There were moments of doubt about direction, decisions, and timing.
 
 That uncertainty is not a sign that something is wrong. It is part of the transition from structured learning to real-life problem solving.
 
