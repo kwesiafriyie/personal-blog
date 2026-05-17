@@ -14,27 +14,16 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    name: Build
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node
-        uses: actions/configure-pages@v5
-      - name: Install Node.js dependencies
-        run: npm ci
-      - name: Build Astro Site
-        run: npm run build
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - name: Deploy to GitHub Pages
+      # This official Astro action installs dependencies, builds, and uploads the artifact all in one step
+      - name: Deploy with Astro
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: withastro/action@v3
