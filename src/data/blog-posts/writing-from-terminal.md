@@ -89,6 +89,16 @@ Somewhere in that process, the post becomes public.
 
 No ceremony. Just deployment.
 
+### 4. Integrated Live Analytics Monitoring
+
+Because static hosting platforms don’t come with built-in analytics dashboards, I needed a way to understand how people actually interact with the journal.
+
+**What I did:** I integrated a Google Analytics tracking script globally through my shared layout (`BaseHead.astro`), so every page automatically inherits it.
+
+Since Astro uses client-side navigation in some cases, I ensured page views are tracked correctly during route changes by listening to Astro’s navigation lifecycle events (`astro:page-load`).
+
+**The result:** Page views and navigation events are now tracked consistently across the site, including internal route transitions. This gives a clearer picture of how users move through the blog instead of just seeing isolated page loads.
+
 ## Final thoughts
 
 I didn’t build this workflow to be aesthetic or different.
