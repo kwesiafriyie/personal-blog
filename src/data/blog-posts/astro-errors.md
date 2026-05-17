@@ -2,7 +2,7 @@
 title: The Astro Error That Keeps Humbling Me
 slug: astro-content-schema-error
 publishDate: 17 May 2026
-description: On repeatedly breaking my Astro blog builds because of missing frontmatter fields — and why the terminal always catches me eventually.
+description: On repeatedly breaking my Astro blog builds because of missing frontmatter fields and why the terminal always catches me eventually.
 ---
 
 ## Nothing humbles you faster than a failed build
