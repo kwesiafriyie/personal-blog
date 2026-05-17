@@ -1,9 +1,7 @@
----
-title: Losing My Parents at 23
+title: 'Losing My Parents at 23'
 slug: losing-my-parents-at-23
-publishDate: 10 May 2026
-description: A personal reflection on losing both parents at 23 and learning to navigate life, work, and growth afterward.
----
+publishDate: '10 May 2026'
+description: 'A personal reflection on losing both parents at 23 and learning to navigate life, work, and growth afterward.'
 
 ## The kind of loss you don’t really know how to explain
 
@@ -14,8 +12,6 @@ There isn’t a simple way to introduce that sentence, and there isn’t a clean
 At that age, you don’t really feel “ready” for something like that. You are still becoming who you are supposed to be, still building direction, still trying to understand life.
 
 And then suddenly, the people who were your foundation are no longer there.
-
----
 
 ## What changes is not just emotion — it is everything else
 
@@ -33,8 +29,6 @@ Life doesn’t pause for grief. It continues. Work continues. Expectations conti
 
 But something internal is different.
 
----
-
 ## Learning to function while carrying it
 
 One of the most difficult parts was learning how to keep going in environments that require performance and focus.
@@ -45,8 +39,6 @@ But privately, you are adjusting to a new reality that no longer has the same em
 
 Over time, I learned that strength in this context is not about “moving on”, it is about learning how to carry what you cannot put down.
 
----
-
 ## Grief doesn’t follow a timeline
 
 There is an expectation that time makes things neatly better. My experience has not been that simple.
@@ -54,8 +46,6 @@ There is an expectation that time makes things neatly better. My experience has 
 Some days feel normal. Other days feel heavier for no clear reason.
 
 It is not a straight line of healing. It is something more uneven, something you learn to live alongside rather than finish.
-
----
 
 ## What I hold on to
 
@@ -67,8 +57,6 @@ Over time, I’ve also learned to value:
 * gratitude in small moments
 * relationships while they are here
 * and the importance of continuing, even when it is not easy
-
----
 
 ## Final thoughts
 

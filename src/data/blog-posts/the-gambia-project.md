@@ -1,9 +1,7 @@
----
-title: Life at KPMG — Episode 1: The Gambia Project (My First Major Assignment Abroad)
+title: 'Life at KPMG — Episode 1. The Gambia Project (My First Major Assignment Abroad)'
 slug: kpmg-gambia-project-first-assignment
-publishDate: 17 May 2026
-description: Reflections on joining KPMG in November 2024 and being assigned to a cross-border project in The Gambia in May 2025, and the lessons learned from that experience.
----
+publishDate: '16 May 2026'
+description: 'Reflections on joining KPMG in November 2024 and being assigned to a cross-border project in The Gambia in May 2025, and the lessons learned from that experience.'
 
 ## Joining KPMG — and learning the rhythm of consulting
 
@@ -20,8 +18,6 @@ It was a period of learning:
 
 At that stage, I was still building confidence in the consulting space.
 
----
-
 ## May 2025 — being assigned to The Gambia project
 
 Around May 2025, I was assigned to my first cross-border project involving work connected to The Gambia.
@@ -31,8 +27,6 @@ This was a turning point for me.
 It was the first time I was stepping beyond local project exposure into something more regional — with different stakeholders, expectations, and operational context.
 
 Even though I had been in the firm for a few months, this felt like a real step up in responsibility.
-
----
 
 ## Stepping into something unfamiliar
 
@@ -46,8 +40,6 @@ I had to quickly adapt to:
 * tighter expectations around delivery and communication
 
 It reminded me early that consulting is rarely about having complete information at the start. Instead, it is about building clarity progressively.
-
----
 
 ## Learning how consulting really works
 
@@ -64,8 +56,6 @@ I began to understand that consulting also involves:
 
 In many ways, the work was less about “finding answers” and more about “shaping understanding.”
 
----
-
 ## Communication becomes everything
 
 One of the biggest lessons from working on a cross-border assignment was how critical communication is.
@@ -79,8 +69,6 @@ When teams are distributed across locations, you cannot rely on informal alignme
 
 I learned that small gaps in communication can easily become larger delivery risks if not addressed early.
 
----
-
 ## What this experience taught me early in my career
 
 Looking back, this assignment became an important early milestone in my consulting journey.
@@ -93,8 +81,6 @@ It taught me that:
 * clarity is something you build, not something you start with
 
 Most importantly, it showed me that I was already being trusted with meaningful work much earlier than I expected.
-
----
 
 ## Final thoughts
 

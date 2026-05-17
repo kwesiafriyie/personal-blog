@@ -1,9 +1,7 @@
----
-title: From Huawei to KPMG — A Transition Into Consulting and Broader Problem Solving
+title: 'From Huawei to KPMG — A Transition Into Consulting and Broader Problem Solving'
 slug: huawei-to-kpmg-transition
-publishDate: 14 May 2026
-description: Reflections on moving from a telecom engineering and automation role at Huawei into consulting at KPMG, and the lessons learned along the way.
----
+publishDate: '14 May 2026'
+description: 'Reflections on moving from a telecom engineering and automation role at Huawei into consulting at KPMG, and the lessons learned along the way.'
 
 ## Leaving Huawei — comfort, structure, and deep technical exposure
 

@@ -1,9 +1,7 @@
----
-title: Writing Blogs From the Terminal — My Tiny Publishing Workflow
+title: 'Writing Blogs From the Terminal — My Tiny Publishing Workflow'
 slug: blogging-from-terminal-astro-github
-publishDate: 9 May 2026
-description: A reflection on how I write and publish blog posts using Astro, Git, and the terminal and why I enjoy keeping the workflow simple and manual.
----
+publishDate: '9 May 2026'
+description: 'A reflection on how I write and publish blog posts using Astro, Git, and the terminal and why I enjoy keeping the workflow simple and manual.'
 
 ## My blog lives in the terminal more than in a browser
 
@@ -16,8 +14,6 @@ I write my blogs in plain markdown, inside an Astro project, and everything gets
 Most of the time, I never open a publishing dashboard.
 
 I open the terminal instead.
-
----
 
 ## The flow is simple (and intentional)
 
@@ -34,8 +30,6 @@ That’s it.
 No buttons. No “publish” UI. No distractions.
 
 Just version control and a terminal.
-
----
 
 ## Why I like this approach
 
@@ -65,8 +59,6 @@ No dashboards. No formatting tools pulling attention away.
 
 Just text and structure.
 
----
-
 ## Writing becomes part of my workflow, not a separate activity
 
 One thing I’ve realized is that I don’t “go to a blog platform” to write.
@@ -76,8 +68,6 @@ I just write where I already am, in the same environment I use for building, tes
 That makes it easier to stay consistent.
 
 If I have an idea, I don’t need to switch contexts. I just create a file and start typing.
-
----
 
 ## The moment I actually “publish”
 
@@ -96,8 +86,6 @@ And that’s it.
 Somewhere in that process, the post becomes public.
 
 No ceremony. Just deployment.
-
----
 
 ## Final thoughts
 
