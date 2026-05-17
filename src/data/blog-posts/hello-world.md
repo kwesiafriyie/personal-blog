@@ -1,7 +1,7 @@
 ---
 title: 'Welcome to My Personal Journal'
 slug: hello-world
-publishDate: 16 May 2026
+publishDate: 01 April 2026
 description: 'An introduction to my digital garden where I share my experiences navigating life, higher education and corporate tech consulting.'
 ---
 

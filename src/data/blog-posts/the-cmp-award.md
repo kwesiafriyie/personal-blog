@@ -1,7 +1,7 @@
 ---
 title: 'Life at KPMG — Episode 2. A CMP Award-Winning Engagement'
 slug: kpmg-gambia-cmp-award-project
-publishDate: 17 May 2026
+publishDate: 12 May 2026
 description: 'A reflection on working on a cross-border consulting engagement in The Gambia that later received the CMP Award for Outstanding Service in 2025.'
 ---
 
@@ -49,4 +49,4 @@ It is an experience I still look back on as part of my early growth in consultin
 
 This project was a reminder that meaningful work does not always come after years of experience.
 
-Sometimes it comes early — and what matters is how you show up, contribute, and grow within it.
+Sometimes it comes early and what matters is how you show up, contribute, and grow within it.

@@ -1,7 +1,7 @@
 ---
 title: 'Life at KPMG — Episode 1. The Gambia Project (My First Major Assignment Abroad)'
 slug: kpmg-gambia-project-first-assignment
-publishDate: 16 May 2026
+publishDate: 10 May 2026
 description: 'Reflections on joining KPMG in November 2024 and being assigned to a cross-border project in The Gambia in May 2025, and the lessons learned from that experience.'
 ---
 

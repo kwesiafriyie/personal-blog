@@ -1,7 +1,7 @@
 ---
 title: 'Writing Blogs From the Terminal — My Tiny Publishing Workflow'
 slug: blogging-from-terminal-astro-github
-publishDate: 9 May 2026
+publishDate: 17 May 2026
 description: 'A reflection on how I write and publish blog posts using Astro, Git, and the terminal and why I enjoy keeping the workflow simple and manual.'
 ---
 

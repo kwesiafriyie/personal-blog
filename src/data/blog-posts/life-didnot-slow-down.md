@@ -1,7 +1,7 @@
 ---
 title: 'Life After University — Lessons I Learned Beyond the Classroom'
 slug: life-after-university-lessons-learned
-publishDate: 15 May 2026
+publishDate: 02 May 2026
 description: 'A reflection on the transition from university into professional life, and the lessons learned about growth, discipline, and purpose.'
 ---
 

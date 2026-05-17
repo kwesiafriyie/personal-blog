@@ -1,7 +1,7 @@
 ---
 title: 'Balancing an MSc with a Technology Consulting Career'
 slug: balancing-msc-and-consulting
-publishDate: 01 May 2026
+publishDate: 03 May 2026
 description: 'Strategies on navigating academic milestones while managing corporate integrations.'
 ---
 

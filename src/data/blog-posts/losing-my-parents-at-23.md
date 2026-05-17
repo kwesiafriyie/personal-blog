@@ -1,7 +1,7 @@
 ---
 title: 'Losing My Parents at 23'
 slug: losing-my-parents-at-23
-publishDate: 10 May 2026
+publishDate: 01 May 2026
 description: 'A personal reflection on losing both parents at 23 and learning to navigate life, work, and growth afterward.'
 ---
 
