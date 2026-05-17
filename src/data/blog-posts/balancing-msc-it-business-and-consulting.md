@@ -9,7 +9,7 @@ description: Strategies on navigating academic milestones while managing corpora
 
 ## Finding harmony between study and career
 
-Starting an MSc while working full-time as a technology consultant taught me that balance is not a destination — it is a daily practice.
+Starting an MSc while working full-time as a technology consultant taught me that balance is not a destination — it is a daily practice. There were weeks where client deadlines overlapped with assignments, meetings stretched into study hours, and rest became something i had to schedule intentionally.
 
 Both roles bring unique rewards and pressures. On one hand, the academic journey invites curiosity, deep reflection, and structured learning. On the other, consulting demands fast decision-making, client focus, and tangible delivery.
 
