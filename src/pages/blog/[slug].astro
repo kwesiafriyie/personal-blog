@@ -16,6 +16,7 @@ const { post } = Astro.props
 const { title, slug, description, publishDate } = post.data;
 const readingTimeEstimate = readingTime(post.body).text
 const permalink = `${Astro.site.href}blog/${slug}`;
+const baseUrl = import.meta.env.BASE_URL;
 const { Content } = await render(post)
 ---
 
