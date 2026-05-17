@@ -9,7 +9,7 @@ description: 'Reflections on joining KPMG in November 2024 and being assigned to
 
 I joined KPMG in November 2024.
 
-Like most new joiners, the first few months were about adjustment — understanding how consulting teams operate, how delivery cycles work, and how to navigate ambiguity in real client environments.
+Like most new joiners, the first few months were about adjustment, understanding how consulting teams operate, how delivery cycles work, and how to navigate ambiguity in real client environments.
 
 It was a period of learning:
 
@@ -32,7 +32,7 @@ Even though I had been in the firm for a few months, this felt like a real step 
 
 ## Stepping into something unfamiliar
 
-What made this project significant wasn’t just the geography — it was the level of ambiguity and learning required.
+What made this project significant wasn’t just the geography, it was the level of ambiguity and learning required.
 
 I had to quickly adapt to:
 
