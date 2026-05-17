@@ -1,7 +1,9 @@
+---
 title: 'Welcome to My Personal Journal'
 slug: hello-world
-publishDate: '16 May 2026'
+publishDate: 16 May 2026
 description: 'An introduction to my digital garden where I share my experiences navigating life, higher education and corporate tech consulting.'
+---
 
 <!-- ![Illustration of woman using a meditation app](/assets/blog/casual-life-3d-meditation-crystal.webp) -->
 

@@ -1,7 +1,9 @@
+---
 title: 'Life at KPMG — Episode 2. A CMP Award-Winning Engagement'
 slug: kpmg-gambia-cmp-award-project
-publishDate: '17 May 2026'
+publishDate: 17 May 2026
 description: 'A reflection on working on a cross-border consulting engagement in The Gambia that later received the CMP Award for Outstanding Service in 2025.'
+---
 
 ## How I ended up on the project
 
