@@ -10,7 +10,7 @@ export default defineConfig({
   // site: 'https://astro-blog-template.netlify.app',
 
   site: 'https://kwesiafriyie.github.io',
-  base: '/personal-blog',
+  base: '/personal-blog/',
 
   integrations: [mdx(), svelte()],
   markdown: {
