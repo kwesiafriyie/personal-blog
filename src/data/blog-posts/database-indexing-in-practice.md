@@ -11,7 +11,7 @@ I've always found database performance interesting.
 
 It's one thing to understand database concepts theoretically. It's another to observe what actually happens when a database has to process millions of records.
 
-Recently, I decided to explore this more practically through a personal project i'm building called **BankPerf Lab**.
+Recently, i decided to explore this more practically through a personal project i'm building.
 
 The idea is simple: build a controlled environment where i can experiment with database engineering, performance testing, optimisation and other aspects of systems engineering.
 
