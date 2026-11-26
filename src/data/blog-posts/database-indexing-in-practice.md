@@ -5,7 +5,7 @@ publishDate: 26 November 2026
 description: An experiment with PostgreSQL 16, two million synthetic transaction records, and BankPerf Lab to investigate the impact of composite B-tree indexing on query performance.
 ---
 
-## The curiosity behind the experiment**
+## The curiosity behind the experiment
 
 I've always found database performance interesting.
 
@@ -90,7 +90,7 @@ Same query. Same dataset. Different index availability.
 
 ---
 
-## Then came the results...**
+## Then came the results...
 
 
 ![Performance comparison](/images/indexing-performance.png)
