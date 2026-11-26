@@ -95,7 +95,7 @@ Same query. Same dataset. Different index availability.
 
 ![Performance comparison](/images/indexing-performance.png)
 
-![PostgreSQL indexing performance comparison](/images/indexing-performance.png)
+![PostgreSQL indexing performance comparison](../../images/indexing-performance.png)
 
 
 *Figure 1: Observed execution time with and without the composite B-tree index.*
