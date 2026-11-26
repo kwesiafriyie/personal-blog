@@ -21,7 +21,7 @@ For my first investigation, i wanted to answer a seemingly straightforward quest
 
 ---
 
-## The problem**
+## The problem
 
 Imagine a banking application retrieving the most recent transactions associated with a customer's account.
 
@@ -35,7 +35,7 @@ My hypothesis was that a composite B-tree index on `(account_id, created_at DESC
 
 ---
 
-## Inside BankPerf Lab**
+## Inside BankPerf Lab
 
 The environment runs locally on my Apple MacBook Pro M4, using Docker Compose and PostgreSQL 16.16.
 
@@ -136,7 +136,7 @@ It was interesting to move beyond simply observing that the query was faster and
 
 ---
 
-## The trade-offs and a few lessons**
+## The trade-offs and a few lessons
 
 Of course, indexes aren't free.
 
@@ -162,7 +162,7 @@ Understanding indexes theoretically is useful, but examining execution plans, bu
 
 ---
 
-## What's next?**
+## What's next?
 
 This is the first investigation in the BankPerf Lab series.
 
