@@ -5,7 +5,7 @@ publishDate: 26 November 2026
 description: An experiment with PostgreSQL 16, two million synthetic transaction records, and BankPerf Lab to investigate the impact of composite B-tree indexing on query performance.
 ---
 
-**## The curiosity behind the experiment**
+## The curiosity behind the experiment**
 
 I've always found database performance interesting.
 
@@ -21,7 +21,7 @@ For my first investigation, i wanted to answer a seemingly straightforward quest
 
 ---
 
-**## The problem**
+## The problem**
 
 Imagine a banking application retrieving the most recent transactions associated with a customer's account.
 
@@ -35,7 +35,7 @@ My hypothesis was that a composite B-tree index on `(account_id, created_at DESC
 
 ---
 
-**## Inside BankPerf Lab**
+## Inside BankPerf Lab**
 
 The environment runs locally on my Apple MacBook Pro M4, using Docker Compose and PostgreSQL 16.16.
 
@@ -59,7 +59,7 @@ The intention was to support two operations simultaneously: filtering transactio
 
 ---
 
-**## Putting the hypothesis to the test**
+## Putting the hypothesis to the test**
 
 I used the following query to retrieve the 20 most recent transactions for a particular account:
 
@@ -90,10 +90,12 @@ Same query. Same dataset. Different index availability.
 
 ---
 
-**## Then came the results...**
+## Then came the results...**
 
 
 ![Performance comparison](/images/indexing-performance.png)
+
+![PostgreSQL indexing performance comparison](/images/indexing-performance.png)
 
 
 *Figure 1: Observed execution time with and without the composite B-tree index.*
@@ -134,7 +136,7 @@ It was interesting to move beyond simply observing that the query was faster and
 
 ---
 
-**## The trade-offs and a few lessons**
+## The trade-offs and a few lessons**
 
 Of course, indexes aren't free.
 
@@ -160,7 +162,7 @@ Understanding indexes theoretically is useful, but examining execution plans, bu
 
 ---
 
-**## What's next?**
+## What's next?**
 
 This is the first investigation in the BankPerf Lab series.
 
