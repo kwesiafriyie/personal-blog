@@ -31,10 +31,10 @@ So now the only real obstacle is consistency, courage, and convincing my body to
 
 ## Why skating though?
 
-Honestly, I don’t fully know.
+Honestly, i don’t fully know.
 
 Part of it is curiosity.
-Part of it is wanting to learn something completely outside my normal world of systems, deadlines, and screens.
+Part of it is wanting to learn something completely outside my normal world of deadlines and screens.
 
 Skating feels different.
 
@@ -54,7 +54,7 @@ And maybe that’s part of the appeal.
 
 ## Saturdays are the only real window
 
-Right now, Saturdays are realistically the only time I can go to the park consistently.
+Right now, Saturdays are realistically the only time i can go to the park consistently.
 
 Which honestly fits the mood of skating anyway.
 
@@ -63,7 +63,7 @@ Open space.
 Music somewhere in the background.
 People falling and laughing like it’s part of the process.
 
-I haven’t even properly started yet, but I already like the atmosphere around it.
+I haven’t even properly started yet, but i already like the atmosphere around it.
 
 ---
 
@@ -73,9 +73,9 @@ I fully expect:
 - terrible balance
 - awkward falls
 - overconfidence followed by immediate regret
-- and muscles hurting in places I forgot existed
+- and muscles hurting in places i forgot existed
 
-But I think that’s good.
+But i think that’s good.
 
 Not everything needs to become productive or optimized immediately.
 
@@ -99,12 +99,12 @@ And I think there’s something healthy about that.
 
 ## Final thoughts
 
-Maybe months from now I’ll look back at this post while skating comfortably.
+Maybe months from now i’ll look back at this post while skating comfortably.
 
-Or maybe I’ll still be struggling to stay on the board for more than thirty seconds.
+Or maybe i’ll still be struggling to stay on the board for more than thirty seconds.
 
-Either way, I’m glad I’m trying.
+Either way, i’m glad i’m trying.
 
-Because lately I’ve realized that life shouldn’t only be work and responsibilities.
+Because lately i’ve realized that life shouldn’t only be work and responsibilities.
 
 Sometimes it should also include learning random things that make you feel alive again.

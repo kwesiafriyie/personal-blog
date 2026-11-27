@@ -102,4 +102,4 @@ Sometimes ideas move better when you move too.
 
 And sometimes, in the middle of searching for places to build personal projects, you end up finding small rituals, favourite food spots, and unexpectedly good company along the way.
 
-So for now, Sundays remain somewhere between burgers, side projects, and the occasional search for kenkey whose location I know perfectly — but whose name I still owe this blog.
+So for now, Sundays remain somewhere between burgers, side projects, and the occasional search for kenkey whose location I know perfectly, but whose name I still owe this blog.

@@ -15,9 +15,9 @@ At that age, you don’t really feel “ready” for something like that. You ar
 
 And then suddenly, the people who were your foundation are no longer there.
 
-## What changes is not just emotion — it is everything else
+## What changes is not just emotion, it is everything else
 
-People often think grief is only emotional, but I found that it changes how you relate to everything around you.
+People often think grief is only emotional, but i found that it changes how you relate to everything around you.
 
 It changes:
 
@@ -39,7 +39,7 @@ You still show up. You still work. You still meet deadlines. You still participa
 
 But privately, you are adjusting to a new reality that no longer has the same emotional anchors.
 
-Over time, I learned that strength in this context is not about “moving on”, it is about learning how to carry what you cannot put down.
+Over time, i learned that strength in this context is not about “moving on”, it is about learning how to carry what you cannot put down.
 
 ## Grief doesn’t follow a timeline
 
@@ -51,9 +51,9 @@ It is not a straight line of healing. It is something more uneven, something you
 
 ## What I hold on to
 
-If there is anything I’ve learned, it is that you don’t replace people who shaped your life. You just learn how to continue with their memory in a different form.
+If there is anything i’ve learned, it is that you don’t replace people who shaped your life. You just learn how to continue with their memory in a different form.
 
-Over time, I’ve also learned to value:
+Over time, i’ve also learned to value:
 
 * presence over perfection
 * gratitude in small moments
@@ -62,10 +62,10 @@ Over time, I’ve also learned to value:
 
 ## Final thoughts
 
-Losing my parents at 23 changed the way I understand life, work, and time.
+Losing my parents at 23 changed the way i understand life, work, and time.
 
 It is not something I “overcame.” It is something I live with.
 
-And in many ways, it has shaped how I show up in everything that came after, including work, ambition, and personal growth.
+And in many ways, it has shaped how i show up in everything that came after, including work, ambition, and personal growth.
 
 Because after loss like that, you don’t just think about success differently. you think about life differently.

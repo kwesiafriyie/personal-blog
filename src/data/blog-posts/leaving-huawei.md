@@ -1,5 +1,5 @@
 ---
-title: 'From Huawei to KPMG — A Transition Into Consulting and Broader Problem Solving'
+title: 'From Huawei to KPMG. A Transition Into Consulting and Broader Problem Solving'
 slug: huawei-to-kpmg-transition
 publishDate: 05 May 2026
 description: 'Reflections on moving from a telecom engineering and automation role at Huawei into consulting at KPMG, and the lessons learned along the way.'
@@ -18,13 +18,13 @@ Over time, I became familiar with:
 * working with structured enterprise processes
 * troubleshooting real operational issues under pressure
 
-It was a place where I learned discipline through execution. You didn’t just design solutions — you implemented them in systems that affected real users and operations.
+It was a place where I learned discipline through execution. You didn’t just design solutions, you implemented them in systems that affected real users and operations.
 
 Eventually, though, I started feeling a shift. I didn’t just want to build and support systems. I wanted to understand broader business problems, how decisions are made, and how technology fits into strategy.
 
 That curiosity became the bridge to my next step.
 
-## The decision to move — stepping into uncertainty
+## The decision to move & stepping into uncertainty
 
 Leaving a familiar environment is never just a career decision. It is also an identity shift.
 
@@ -40,7 +40,7 @@ The decision wasn’t instant or easy. It came with questions like:
 
 In hindsight, those questions were part of the reason I needed the move.
 
-## Entering KPMG — learning to think differently
+## Entering KPMG & learning to think differently
 
 The transition into consulting required a mental shift.
 
