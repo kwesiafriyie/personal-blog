@@ -7,61 +7,46 @@ description: An experiment with PostgreSQL 16, two million synthetic transaction
 
 ## The curiosity behind the experiment
 
-I've always found database performance interesting.
+I've always found database performance interesting, especially the things that happen beneath the surface when a database has to process large volumes of data. It's one thing to understand concepts such as indexing, query optimisation and execution plans theoretically; it's another to observe how they influence the behaviour of an actual database.
 
-It's one thing to understand database concepts theoretically. It's another to observe what actually happens when a database has to process millions of records.
+Recently, i decided to explore this more practically through a personal project i'm building called **BankPerf Lab**. The idea is to create a controlled environment where I can experiment with database engineering, performance testing, optimisation and other aspects of systems engineering.
 
-Recently, i decided to explore this more practically through a personal project i'm building.
-
-The idea is simple: build a controlled environment where i can experiment with database engineering, performance testing, optimisation and other aspects of systems engineering.
-
-For my first investigation, i wanted to answer a seemingly straightforward question:
-
-*How much difference can a database index actually make?*
+For my first investigation, I wanted to start with something fundamental but important: **How much difference can a database index actually make?**
 
 ---
 
 ## The problem
 
-Imagine a banking application retrieving the most recent transactions associated with a customer's account.
+Consider a banking application retrieving the most recent transactions associated with a customer's account. As transaction volumes grow, finding a relatively small number of records within a large transaction table can become expensive, especially when the database has to examine a substantial portion of that table before finding the records it needs.
 
-As transaction volumes grow, finding a relatively small number of records within a large transaction table can become expensive, especially when the database has to examine a substantial portion of the table to locate them.
+I wanted to understand what happens when PostgreSQL encounters this kind of query and, more importantly, whether a suitably designed index could make the operation more efficient.
 
-For this experiment, i created a PostgreSQL database containing approximately 2.35 million synthetic records across six tables.
+To investigate this, i created a PostgreSQL database with approximately 2.35 million synthetic records across six tables such as branches, customers, transaction channels, accounts, transactions and audit logs. The `transactions` table was the largest, with about two million records, which makes it a suitable starting point for the experiment.
 
-The `transactions` table alone contained **2 million records**.
-
-My hypothesis was that a composite B-tree index on `(account_id, created_at DESC)` would significantly reduce the execution time of an account transaction-history query.
+My hypothesis was that a composite B-tree index on `(account_id, created_at DESC)` would significantly reduce the execution time of an account transaction-history query by helping PostgreSQL locate the relevant records while also satisfying the requested ordering.
 
 ---
 
 ## Inside BankPerf Lab
 
-The environment runs locally on my Apple MacBook Pro M4, using Docker Compose and PostgreSQL 16.16.
+I built the environment locally on my Apple MacBook Pro M4, using Docker Compose to provision PostgreSQL 16.16. The dataset was designed around a simplified banking domain, which allows me to investigate transaction-related queries against a reasonably substantial volume of synthetic data without relying on actual banking records.
 
-The dataset represents a simplified banking environment, with records covering:
-
-- Branches
-- Customers
-- Transaction channels
-- Accounts
-- Transactions
-- Audit logs
-
-I created the following composite index:
+With the environment ready, i created the following composite index on the `transactions` table:
 
 ```sql
 CREATE INDEX idx_transactions_account_created
 ON transactions (account_id, created_at DESC);
 ```
 
-The intention was to support two operations simultaneously: filtering transactions by account and retrieving them in descending chronological order.
+The column arrangement was deliberate. The first column, `account_id`, supports filtering transactions by account, while the second, `created_at DESC`, aligns with the requirement to retrieve the most recent transactions first. In other words, i wanted one index to support both the filtering and ordering requirements of the query.
+
+The next step was to find out whether PostgreSQL would actually take advantage of it.
 
 ---
 
-## Putting the hypothesis to the test**
+## Putting the hypothesis to the test
 
-I used the following query to retrieve the 20 most recent transactions for a particular account:
+I selected a query that retrieves the 20 most recent transactions for a particular account:
 
 ```sql
 SELECT
@@ -77,99 +62,59 @@ ORDER BY created_at DESC
 LIMIT 20;
 ```
 
-I executed the query using PostgreSQL's `EXPLAIN (ANALYZE, BUFFERS)` to inspect its execution plan and performance statistics.
+Rather than relying solely on the time taken to execute the query, i used PostgreSQL's `EXPLAIN (ANALYZE, BUFFERS)` to examine the execution plan alongside runtime and buffer statistics. This would help me understand not just whether the query became faster, but what PostgreSQL was doing differently.
 
-I tested two conditions:
+I tested the same query under two conditions. First, i executed it with the composite index available. I then temporarily removed the index and executed the query again. To avoid permanently changing the database structure, i performed the second test inside a database transaction and used `ROLLBACK` afterwards to restore the original state.
 
-1. With the composite index available.
-2. With the index temporarily removed.
-
-For the second condition, i dropped the index inside a database transaction and rolled back afterwards, which restored the original database state.
-
-Same query. Same dataset. Different index availability.
+This gave me two execution conditions to compare: the same query, against the same dataset, with a different index-availability state.
 
 ---
 
 ## Then came the results...
 
-
-<!-- ![Performance comparison](/images/indexing-performance.png)
-
-![PostgreSQL indexing performance comparison](../../images/indexing-performance.png) -->
-
 ![PostgreSQL indexing performance comparison](/personal-blog/images/indexing-performance.png)
-
 
 *Figure 1: Observed execution time with and without the composite B-tree index.*
 
-The difference was quite interesting.
+The difference was quite striking. The first execution with the index available completed in **0.150 milliseconds**, while the execution without the index took **581.503 milliseconds**. That's an observed execution-time ratio of approximately **3,877×**.
 
-| Execution condition | Execution time |
-|---|---:|
-| With index | 0.150 ms |
-| Without index | 581.503 ms |
+However, the execution time was only part of the story. When i examined the execution plans, i found that PostgreSQL had selected entirely different strategies depending on whether the index was available.
 
-The first indexed execution completed in **0.150 milliseconds**, while the non-indexed execution took **581.503 milliseconds**.
+With the index in place, PostgreSQL used an `Index Scan` on `idx_transactions_account_created`. Because the index supported both the account filter and the requested descending chronological order, PostgreSQL did not need to introduce a separate sorting operation.
 
-That's an observed execution-time ratio of approximately **3,877×**.
+Without the index, however, PostgreSQL resorted to a `Parallel Sequential Scan`, followed by a `Sort` and `Gather Merge`. It launched two parallel workers and examined a substantial portion of the transaction table to identify the matching records. Interestingly, despite the query's `LIMIT 20`, only 13 transactions matched the specified account.
 
-But the interesting part wasn't just the execution time.
-
-PostgreSQL selected entirely different execution plans.
-
-With the index, it used an `Index Scan`. The composite index supported both the account filter and the requested ordering, so no separate sorting operation was required.
-
-Without the index, PostgreSQL used a `Parallel Sequential Scan`, followed by a `Sort` and `Gather Merge`.
-
-It launched two parallel workers and examined a substantial portion of the transaction table to find just 13 matching records.
-
-The buffer statistics told a similar story:
+The buffer statistics reinforced the difference in the amount of database activity involved:
 
 | Measurement | With index | Without index |
 |---|---:|---:|
 | Shared buffer hits | 19 | 3,883 |
 | Shared buffer reads | 0 reported | 34,617 |
 
-I also inspected the physical B-tree structure using PostgreSQL's `pgstatindex()` function.
+I was also curious about the physical structure supporting the indexed execution, so i went a step further and inspected the B-tree using PostgreSQL's `pgstatindex()` function. The index occupied approximately 60 MB and had three tree levels, 7,663 leaf pages and an average leaf density of 90.03%.
 
-The index occupied approximately 60 MB and had three tree levels, 7,663 leaf pages and an average leaf density of 90.03%.
-
-It was interesting to move beyond simply observing that the query was faster and actually examine the structure responsible for supporting that execution.
+This was interesting because it allowed me to look beyond the execution plan and examine the actual structure PostgreSQL maintained to support the query.
 
 ---
 
 ## The trade-offs and a few lessons
 
-Of course, indexes aren't free.
+Of course, indexes aren't free. While they can improve read performance, they also consume storage and introduce additional maintenance overhead whenever records are inserted, updated or deleted. Creating indexes indiscriminately can therefore increase storage requirements and affect write performance.
 
-They consume storage and introduce additional maintenance overhead when records are inserted, updated or deleted.
+There's also an important qualification to my results. This was an initial experiment rather than a statistically controlled benchmark. i performed two indexed executions and one non-indexed execution, without standardising the buffer-cache state between the tests. The indexed executions reported no shared buffer reads, whereas the non-indexed execution reported 34,617.
 
-Creating indexes indiscriminately can therefore increase storage requirements and affect write performance.
+Consequently, the approximately 3,877× difference should be treated as an observation from this particular experiment, not a universal performance guarantee. A more comprehensive investigation would involve repeated executions, controlled cache conditions, different transaction volumes and concurrent workloads.
 
-There's also an important qualification to my results.
-
-This was an initial experiment, not a statistically controlled benchmark. I performed two indexed executions and one non-indexed execution, without standardising the buffer-cache state between the tests.
-
-The indexed executions reported no shared buffer reads, whereas the non-indexed execution reported 34,617.
-
-Consequently, the approximately 3,877× difference should be treated as an observation from this experiment, not a universal performance guarantee.
-
-A more comprehensive investigation would involve repeated executions, controlled cache conditions, different transaction volumes and concurrent workloads.
-
-My biggest takeaway?
-
-**Database optimisation should be evidence-driven.**
-
-Understanding indexes theoretically is useful, but examining execution plans, buffer activity and physical index statistics gives you a much deeper understanding of why a query behaves the way it does.
+Nevertheless, the experiment reinforced something important for me: **database optimisation should be evidence-driven**. Understanding indexes theoretically is useful, but examining execution plans, buffer activity and physical index statistics provides a much deeper understanding of why a query behaves the way it does. It also helps distinguish between an optimisation that looks good on paper and one that actually makes a measurable difference.
 
 ---
 
 ## What's next?
 
-This is the first investigation in the BankPerf Lab series.
+This is the first investigation in the BankPerf Lab series, and i intend to build on it by exploring more areas of database engineering and performance optimisation. Instead of stopping at what a database does, i want to understand the internal mechanisms that influence how it behaves and how those mechanisms affect real-world systems.
 
-I'm looking forward to exploring more areas of database engineering and performance optimisation, and into the internal mechanisms that influence how systems behave.
+The next investigation will explore **B-tree versus BRIN indexing in PostgreSQL**, looking at their structural differences, performance characteristics and the circumstances in which each might be appropriate.
 
-More experiments, more questions, and hopefully a few more interesting discoveries along the way.
+For now, this first experiment has been a useful reminder that sometimes the best way to understand a system is to build something, formulate a question, test an assumption and investigate the results.
 
-For now, one thing is clear: sometimes the best way to understand a database is to make it work, observe what happens, and investigate why.
+And that's exactly what i intend to keep doing with this Lab.
