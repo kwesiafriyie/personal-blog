@@ -9,9 +9,9 @@ description: An experiment with PostgreSQL 16, two million synthetic transaction
 
 I've always found database performance interesting, especially the things that happen beneath the surface when a database has to process large volumes of data. It's one thing to understand concepts such as indexing, query optimisation and execution plans theoretically; it's another to observe how they influence the behaviour of an actual database.
 
-Recently, i decided to explore this more practically through a personal project i'm building called **BankPerf Lab**. The idea is to create a controlled environment where I can experiment with database engineering, performance testing, optimisation and other aspects of systems engineering.
+Recently, i decided to explore this more practically through a personal project i'm building called **BankPerf Lab**. The idea is to create a controlled environment where i can experiment with database engineering, performance testing, optimisation and other aspects of systems engineering.
 
-For my first investigation, I wanted to start with something fundamental but important: **How much difference can a database index actually make?**
+For my first investigation, i wanted to start with something fundamental but important: **How much difference can a database index actually make?**
 
 ---
 
@@ -27,7 +27,7 @@ My hypothesis was that a composite B-tree index on `(account_id, created_at DESC
 
 ---
 
-## Inside BankPerf Lab
+## Inside the Lab
 
 I built the environment locally on my Apple MacBook Pro M4, using Docker Compose to provision PostgreSQL 16.16. The dataset was designed around a simplified banking domain, which allows me to investigate transaction-related queries against a reasonably substantial volume of synthetic data without relying on actual banking records.
 
